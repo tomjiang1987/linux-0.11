@@ -14,4 +14,4 @@ bochs:
 vb 0x0000:0x7c00
 
 #find
-find . -name '*.*' | xargs grep -inP -A5 -B5 'do_exe' 
+find . -name '\*\.\*' | xargs grep -inP -A5 -B5 'do_exe' --color
